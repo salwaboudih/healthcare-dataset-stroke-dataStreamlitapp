@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 
-with open('besthealthcare1.pkl', 'rb') as f:
+with open('besthealthcare1.pkl.gz', 'rb') as f:
     model = pickle.load(f)
 
 st.title(" Prédiction de Risque d'AVC")
